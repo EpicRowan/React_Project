@@ -1,15 +1,7 @@
+
 import React from "react"
 import ReactDOM from "react-dom"
 
-function MyApp() {
-	return (
-	<ul>HELLO</ul>
-	)
-}
+import App from "./App.js"
 
-ReactDOM.render(
-	<MyApp/>,
-	document.getElementById("root")
-	)
-
-
+ReactDOM.render(<App />, document.getElementById("root"))
