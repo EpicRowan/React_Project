@@ -17,8 +17,11 @@ function App() {
     timeOfDay = "night"
   }
  
+ const styles ={
+ 	color: "purple",
+ }
  return (
-  <h1> Good {timeOfDay}! </h1>
+  <h1 style ={styles}> Good {timeOfDay}! </h1>
   )
 }
 
