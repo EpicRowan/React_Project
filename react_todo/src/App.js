@@ -81,38 +81,51 @@ import todosData from "./todosData"
 
 // Practice re-doing function and component
 
-class App extends React.Component {
-	constructor() {
-		super()
-		this.state ={
-			todos: todosData
-		}
-	this.handleChange=this.handleChange.bind(this)
+// class App extends React.Component {
+// 	constructor() {
+// 		super()
+// 		this.state ={
+// 			todos: todosData
+// 		}
+// 	this.handleChange=this.handleChange.bind(this)
 
-	}
+// 	}
 
-	handleChange(id) {
-		this.setState(prevState) => {
-			const updatedTodos = prevState.todos.map(todo =>
-				if (todos === id) {
-					todocompleted != updatedTodos
-				}			
-				return todos
+// 	handleChange(id) {
+// 		this.setState(prevState) => {
+// 			const updatedTodos = prevState.todos.map(todo =>
+// 				if (todos === id) {
+// 					todocompleted != updatedTodos
+// 				}			
+// 				return todos
 
-			return {
-				todos: updatedTodos
-			}
-					)
-				}
-		}
-	render() {
-		const todothings= this.state.todos.map(item => <ToDoItem item={item}/>)
+// 			return {
+// 				todos: updatedTodos
+// 			}
+// 					)
+// 				}
+// 		}
+// 	render() {
+// 		const todothings= this.state.todos.map(item => <ToDoItem item={item}/>)
 
-		return (
-			<div>
-				{todothings}
-			</div>
-			)
-	}
+// 		return (
+// 			<div>
+// 				{todothings}
+// 			</div>
+// 			)
+// 	}
+// }
+// export default App
+
+
+// Conditional Rendering practice
+
+function App() {
+	return (
+		<div>
+		</div>
+
+	)
 }
+
 export default App
