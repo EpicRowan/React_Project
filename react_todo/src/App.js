@@ -79,7 +79,7 @@ import todosData from "./todosData"
 // 	}
 // }
 
-// To Do list App with state and event handler
+// Practice re-doing function and component
 
 class App extends React.Component {
 	constructor() {
